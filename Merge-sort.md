@@ -1,3 +1,9 @@
+[16,21,11,8,12,22] -> Merge Sort
+
+Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+Big-O gösterimini yazınız.
+
+
 Merge sort : Merge sort algortimasında verilen dizi tek parça olana kadar dizinin ortanca indeksinden ikiye bölünür. 
 İkinci aşamada her bir sayı baştan itibaren kıyaslanarak küçükten büyüğe veya verilen komutlara göre büyükten küçüğe göre yine parça parça sıralanır.
 Ve yolun sonunda sıralı bir dizimiz olur .
