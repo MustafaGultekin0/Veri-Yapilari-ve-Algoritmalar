@@ -27,13 +27,14 @@ O(n^2)
 
 3. Time Complexity:
 - Worst case: Aradığımız sayının sonda olması,
-Tam ters verilmiş dizi, bu durumda dizinin her bir elemanı bir gerisindekinden küçük olacaktır. Dolayısıyla 1inci eleman için iç döngü 0 2 eleman için geriye doğru 1, 3. eleman için iki daha sonra 3 4 5 6… n kadar geriye hareket yapacaktır. Yani 0+1+2+3+4…..+n-1 = [n*(n-1)]/2 : n^2
+Tam ters verilmiş dizi, bu durumda dizinin her bir elemanı bir gerisindekinden küçük olacaktır. Dolayısıyla 1inci eleman için iç döngü 0 2 eleman için geriye doğru 1, 3. eleman için iki daha sonra 3 4 5 6… n kadar geriye hareket yapacaktır. Yani 0+1+2+3+4…..+n-1 = [n*(n-1)]/2 : O(n^2)
 
 - Average case: Aradığımız sayının ortada olması,
-Worst case ile best casein ortalamasını aldığımızda n^2 olarak buluruz.
+Worst case ile best casein ortalamasını aldığımızda  olarak buluruz. O(logn)
 
 - Best case: Aradığımız sayının dizinin en başında olması.
-Tam sıralı dizi, n tane sayinin üzerinden birer defa geçer ve hiç birini geriye doğru ilerletme gereği olmadığı için bu tek geçişle kalır. Yani n
+Tam sıralı dizi, n tane sayinin üzerinden birer defa geçer ve hiç birini geriye doğru ilerletme gereği olmadığı için bu tek geçişle kalır.
+O(logn)
 
 4. Dizi sıralandıktan sonra 18 sayısı hangi case kapsamına girer? Yazınız.
 veri setinin ortasında olduğu için average case kapsamına girer.
