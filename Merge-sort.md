@@ -15,3 +15,5 @@ Ve yolun sonunda sıralı bir dizimiz olur .
  -  [11,16,21]    [8,12,22]        
  -6-)Dizi tamamen sıralı bir hale getirilir.
  -  [8,11,12,16,21,22]
+
+Big-O gösterimi : O(logn)
